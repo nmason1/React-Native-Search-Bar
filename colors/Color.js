@@ -1,3 +1,3 @@
-const Color = { primary: "#c97f34" };
+const Color = { primary: "black", secondary: "black" };
 
 export default Color;

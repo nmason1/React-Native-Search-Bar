@@ -2,7 +2,6 @@ import React, { useState } from "react";
 import { TextInput, StyleSheet } from "react-native";
 
 const searchBar = props => {
-  const [text, setText] = useState("");
   return (
     <TextInput
       style={styles.searchBar}

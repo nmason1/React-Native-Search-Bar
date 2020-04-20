@@ -17,7 +17,7 @@ export default function App() {
       <View style={styles.searchBarContainer}>
         <SeachBar filterValue={filterValue} setFilterValue={handleFilter} />
       </View>
-      <View style={{ padding: 20 }}>
+      <View style={{ padding: 20, marginTop: 20 }}>
         <DList filterValue={filterValue} />
       </View>
     </View>
